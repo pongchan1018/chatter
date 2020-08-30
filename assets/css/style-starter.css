@@ -9761,7 +9761,7 @@ header.active {
   text-transform: uppercase; }
 
 .navbar .navbar-brand img {
-  max-width: 140px;
+  max-width: 250px;
   transition: all 0.5s ease; }
 
 .navbar-expand-lg .navbar-nav .nav-item {
@@ -9817,7 +9817,7 @@ header.nav-fixed {
   background-color: #12122a; }
 
 header.nav-fixed .navbar-brand img {
-  max-width: 102px; }
+  max-width: 180px; }
 
 /*===================================*
 03. HOME
