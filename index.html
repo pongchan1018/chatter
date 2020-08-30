@@ -6,9 +6,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>BotChat-學伴機器人(Beta版)</title>
+  <title>情感學伴系統(Beta版)</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/images/huaan.png" type="image/x-icon" >
+  <link rel="icon" href="assets/images/b-bot.png" type="image/x-icon" >
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -17,12 +17,12 @@
 
 <style>
   df-messenger {
-   --df-messenger-bot-message: #878fac;
-   --df-messenger-button-titlebar-color: #626686;
+   --df-messenger-bot-message: #12122a;
+   --df-messenger-button-titlebar-color: #12122a;
    --df-messenger-chat-background-color: #fafafa;
    --df-messenger-font-color: white;
-   --df-messenger-send-icon: #878fac;
-   --df-messenger-user-message: #626686;
+   --df-messenger-send-icon: #12122a;
+   --df-messenger-user-message: #12122a;
    z-index: 1100;
    position: absolute;
   }
@@ -35,20 +35,19 @@
 
 <!-- Dialogflow Chatbot -->
 <df-messenger
-chat-icon="https://storage.googleapis.com/cloudprod-apiai/0c1a8b47-4355-45c6-816c-71729e6a1e82_x.png"
-intent="WELCOME"
-chat-title="伴學小書僮"
-agent-id="9d0ec4fc-364e-4849-a287-7862934561d0"
-language-code="zh-tw"
->
-</df-messenger>
+  chat-icon="https://storage.googleapis.com/cloudprod-apiai/1c89b19d-0ce6-44a2-b4e7-543f4fb6624d_x.png"
+  intent="WELCOME"
+  chat-title="情感助教"
+  agent-id="9d0ec4fc-364e-4849-a287-7862934561d0"
+  language-code="zh-tw"
+></df-messenger>
 
 <body>
 <!-- site header -->
 <header id="site-header" class="fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html">
-          <span class="fa fa-graduation-cap"></span> PONGCHATBOT
+        <img src="assets/images/logo.png">
       </a>
       <button class="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
           data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -62,16 +61,16 @@ language-code="zh-tw"
                   <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="course.html">課程</a>
+                  <a class="nav-link" href="course.html">課程總覽</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="forum.html">討論區</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="questionnaire.html">問卷</a>
+                  <a class="nav-link" href="questionnaire.html">問卷填寫</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">關於</a>
+                <a class="nav-link" href="about.html">關於我們</a>
             </li>
           </ul>
           <!-- <ul class="navbar-nav">
