@@ -27,69 +27,20 @@
    z-index: 1100;
   }
 
-</style>
-
-<script>
-  function trans() {
-
-var numbers1 = [ 'S111','劉凡齊','陳鈺昕','孫偉傑','呂昱錡','蔡永濂',
-                   '蔡逸澄','曾奕勛','黃冠洋','王詠正','黃捷',
-                 '謝宇勝','洪定承','鄭椉榕','郭柔嶔','施丞鴻',
-         '林育瑄','洪薇婷','曾曼玲','羅昱婕','游景雯',
-         '陳奕潤','許以謙','邱讌壹','張祐綱','鄭智翔',
-         '麥竣湋','吳孟霖','何冠緯','許洋浚','蕭淳云'];
-
-var numbers2 = [ '王小明','吳小美','陳小華'
-        //            '蔡逸澄','曾奕勛','黃冠洋','王詠正','黃捷',
-        //          '謝宇勝','洪定承','鄭椉榕','郭柔嶔','施丞鴻',
-        //  '林育瑄','洪薇婷','曾曼玲','羅昱婕','游景雯',
-        //  '陳奕潤','許以謙','邱讌壹','張祐綱','鄭智翔',
-         ];
-
-var Text1 = document.getElementById("textbox1");
-
-//document.getElementById("demo").innerHTML = cars[1];
-
-//var numbers1 = ['S45', 'S4', 'S9', 'S16', 'S25'];
-var someOver1 = numbers1.some(myFunction);
-
-//var numbers2 = ['S45', 'S4', 'S9', 'S16', 'S25'];
-var someOver2 = numbers2.some(myFunction);
-
-document.getElementById("demo").innerHTML = "輸入姓名是: " + Text1.value;
-
-function myFunction(value, index, array) {
-return value == Text1.value;
-}
-
-  if(someOver1==1){
-        location.href='index-1.html';
-    //alert("實驗組1");
-        }
-
-  else if(someOver2==1){
-        location.href='index-2.html';
-    //alert("實驗組2");
-        }
-
-  else {
-      location.href='index-3.html';
-      
-      //alert("對照組");
-      }
-  
+  .--df-messenger-chat-wrapper {
+    bottom: 80px !important;
   }
 
-</script>
+</style>
 
 <!-- Dialogflow Chatbot -->
-<!-- <df-messenger
+<df-messenger
   chat-icon="https://storage.googleapis.com/cloudprod-apiai/1c89b19d-0ce6-44a2-b4e7-543f4fb6624d_x.png"
   intent="whatmood"
   chat-title="情感助教"
   agent-id="9d0ec4fc-364e-4849-a287-7862934561d0"
   language-code="zh-tw"
-></df-messenger> -->
+></df-messenger>
 
 <body>
 <!-- site header -->
@@ -112,12 +63,12 @@ return value == Text1.value;
               <li class="nav-item">
                   <a class="nav-link" href="course.html">課程總覽</a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                   <a class="nav-link" href="forum.html">討論區</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="questionnaire.html">問卷填寫</a>
-              </li> -->
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">關於我們</a>
             </li>
@@ -138,15 +89,13 @@ return value == Text1.value;
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4">
-                <h1 class="mb-4 title"><strong>情感式聊天機器人系統</strong>
+                <h1 class="mb-4 title"><strong>Doing </strong>the right thing, <br>at the <strong>right time.</strong>
                 </h1>
-                <p style=" font-size:24px">歡迎您使用本系統，請輸入姓名登入本系統!
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.</p>
                 <div class="mt-5">
-                  <input type="text"  placeholder="  請輸入您的姓名" id="textbox1" style="height: 52px; border-radius: 5px; width: 30% !important; "/>
-                    <input class="btn btn-primary btn-style mr-2" type="button" id="button1" onclick="trans();" value="登入系統" />	
+                    <a class="btn btn-primary btn-style mr-2" href="about.html">Read More </a>
+                    <a class="btn btn-outline btn-outline-style" href="services.html">Our Services </a>
                 </div>
-                <p id="demo"></p>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
                 <div>
@@ -157,6 +106,82 @@ return value == Text1.value;
     </div>
 </section>
 <!-- //banner section -->
+
+<!-- home page service grids -->
+<section id="services" class="bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+        <h4 class="section-title">Meet Our Solution For You</h4>
+        <p class="text-center">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure minus
+          laboriosam placeat quia, dolorem animi. Eveniet repudiandae, iure et.</p>
+      </div>
+    </div>
+    <div class="row mt-lg-5">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-briefcase"></span>
+          </div>
+          <h4><a href="#url">Business Services</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-shield"></span>
+          </div>
+          <h4><a href="#url">Product Consulting</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-dollar"></span>
+          </div>
+          <h4><a href="#url">Financial Consulting</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-industry"></span>
+          </div>
+          <h4><a href="#url">Investment Planning</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-lightbulb-o"></span>
+          </div>
+          <h4><a href="#url">Business Growth</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box-wrap">
+          <div class="icon">
+            <span class="fa fa-picture-o"></span>
+          </div>
+          <h4><a href="#url">Projects Worldwide</a></h4>
+          <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+            doloret quas saepe autem, dolor set.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //home page service grids -->
 
 
 <!-- stats section -->
