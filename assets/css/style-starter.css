@@ -514,7 +514,7 @@ pre {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px; } }
+    max-width: 1350px; } }
 
 .row {
   display: flex;
@@ -1830,13 +1830,13 @@ fieldset:disabled a.btn {
   border-color: #9a8c98; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #3aa89f;
+    background-color: #626686;
     border-color: #a; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #3aa89f;
+    background-color: #626686;
     border-color: #626686;
-    box-shadow: 0 0 0 0.2rem rgba(67, 169, 161, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(98, 102, 134, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #212529;
     background-color: #9a8c98;
@@ -1845,10 +1845,10 @@ fieldset:disabled a.btn {
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #626686;
-    border-color: #34968d; }
+    border-color: #433496b6; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(67, 169, 161, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(98, 102, 134, 0.5); }
 
 .btn-secondary {
   color: #fff;
@@ -10815,8 +10815,15 @@ li.breadcrumb-item.active {
 /*-- //responsive --*/
 .w3l-features .call-grids-w3 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px; }
+
+  @media only screen and (max-width: 736px) {
+  .w3l-features .call-grids-w3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; }
+  }
 
 .w3l-features .grids-1 p {
   color: var(--para-color); }
@@ -10912,7 +10919,7 @@ ul.list {
   .w3l-features p.text-para {
     font-size: 15px; }
   .w3l-features .call-grids-w3 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px; }
   .section-title-left {
     font-size: 1.5em; } }
