@@ -1,14 +1,6 @@
-/* 
-Author: W3layouts
-Author URL: http://w3layouts.com
-*/
+
 @charset "UTF-8";
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9624,10 +9616,10 @@ a:hover {
   background: #9a8c98; }
 
 .btn-style {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 25px;
   padding: 14px 30px;
-  font-weight: 500;
+  font-weight: 520;
   color: #fff;
   border: none;
   text-transform: uppercase;
@@ -9640,13 +9632,13 @@ a:hover {
   transform: translateY(5px); }
 
 .btn-outline-style {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 25px;
   transition: 0.5s;
   border: 2px solid #FFE;
   color: #fff;
   padding: 12px 30px;
-  font-weight: 500;
+  font-weight: 520;
   text-transform: uppercase;
   border-radius: 8px; }
 
@@ -9765,7 +9757,7 @@ header.active {
   transition: all 0.5s ease; }
 
 .navbar-expand-lg .navbar-nav .nav-item {
-  padding: 0 20px;
+  padding: 0 30px;
   transition: all 0.5s ease; }
 
 .navbar-expand-lg .navbar-nav .nav-item.active a {
